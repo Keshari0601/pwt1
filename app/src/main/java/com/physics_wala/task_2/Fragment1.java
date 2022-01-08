@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+
 public class Fragment1 extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {

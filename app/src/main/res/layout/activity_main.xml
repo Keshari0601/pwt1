@@ -5,7 +5,6 @@
     android:layout_marginLeft="0dp"
     android:layout_marginRight="0dp"
     android:baselineAligned="false"
-    android:divider="?android:attr/dividerHorizontal"
     android:orientation="horizontal"
     android:showDividers="middle"
     tools:context=".MainActivity" >
@@ -15,16 +14,18 @@
         android:orientation="vertical"
         android:layout_weight="1" >
 
-        <androidx.fragment.app.FragmentContainerView
+        <fragment
             android:id="@+id/fragment1"
             android:layout_width="match_parent"
+            android:name="com.physics_wala.task_2.Fragment1"
             android:layout_height="fill_parent"
             android:layout_alignBottom="@id/dummyView"
             tools:layout="@layout/fragment_fragment1" />
 
-        <androidx.fragment.app.FragmentContainerView
+        <fragment
             android:id="@+id/fragment2"
             android:layout_width="match_parent"
+            android:name="com.physics_wala.task_2.Fragment2"
             android:layout_height="fill_parent"
             android:layout_alignTop="@id/dummyView"
             tools:layout="@layout/fragment_fragment2" />

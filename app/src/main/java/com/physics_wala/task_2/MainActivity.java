@@ -57,8 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
             data.add(itemString);
-            adapter.notify();
+            adapter.notifyDataSetChanged();
         });
-
     }
 }
